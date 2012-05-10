@@ -13,6 +13,14 @@
            fetch="https://github.com/CyanogenMod/"
            revision="ics" />
 
+  <remote name="sgs"
+           fetch="https://github.com/"
+           revision="ics" /> 
+           
+  <remote name="gb"
+           fetch="https://github.com/"
+           revision="gingerbread" />          
+
   <default remote="aosp"
            sync-j="4" />
 
@@ -240,6 +248,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="gh" revision="ics" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="gh" revision="ics" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="sgs" revision="ics" />
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="gh" revision="ics"/>
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -295,7 +304,9 @@
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="ics" />
 
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="gh" revision="ics" />
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="gh" revision="ics" />
+  <project path="vendor/aokp" name="AOKPCB/vendor_aokp" remote="sgs" revision="ics" />
+  <project path="vendor/pcbblue_theme" name="AOKPCB/pcbblue_theme" remote="sgs" revision="master" />
+  <project path="vendor/pcbblue_theme/bot" name="remicks/pseudo_buildbot" remote="sgs" revision="ics" />
   <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="ics" />
@@ -321,6 +332,7 @@
   <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="refs/heads/ics" remote="gh" />
   <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="refs/heads/ics" remote="gh" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="gh" revision="ics" />
-
+  <project path="buildscripts" name="AOKPCB/buildscripts" remote="sgs" revision="ics" />
+  <project path="platform_manifest" name="AOKPCB/platform_manifest" remote="sgs" revision="ics" />
+  
 </manifest>
