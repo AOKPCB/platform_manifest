@@ -308,8 +308,8 @@
 
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="gh" revision="ics" />
   <project path="vendor/aokp" name="AOKPCB/vendor_aokp" remote="sgs" revision="ics" />
-  <project path="vendor/pcbblue_theme" name="AOKPCB/pcbblue_theme" remote="sgs" revision="master" />
-  <project path="vendor/pcbblue_theme/bot" name="remicks/pseudo_buildbot" remote="sgs" revision="ics" />
+  <project path="vendor/aokpcb" name="AOKPCB/vendor_aokpcb" remote="sgs" revision="master" />
+  <project path="vendor/aokpcb/bot" name="remicks/pseudo_buildbot" remote="sgs" revision="ics" />
   <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="ics" />
