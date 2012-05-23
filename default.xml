@@ -241,7 +241,6 @@
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="gh" revision="ics" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="ics"/>  
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="gh" revision="ics"/>
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="gh" revision="ics" />
