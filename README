@@ -1,7 +1,8 @@
+Quick guide to building AOKPCB
+
 $ repo init -u https://github.com/AOKPCB/platform_manifest.git -b ics
 $ repo sync
 $ . platform_manifest/add_kernel_manifest.sh
-
-temporary fix to build:
-$ install -d prebuilt/android-arm/kernel
-  curl -o prebuilt/android-arm/kernel/LINUX_KERNEL_COPYING -O https://raw.github.com/ezterry/kernel-biff-testing/ezgb-2636/COPYING
+$ . build/envsetup.sh
+$ lunch
+$ make bacon
