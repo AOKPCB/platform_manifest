@@ -69,8 +69,10 @@
   <project path="device/samsung/espressowifi" name="AOKP/android_device_samsung_espressowifi" remote="gh" revision="ics" />
   <project path="device/samsung/fascinatemtd" name="AOKP/device_samsung_fascinatemtd" remote="gh" revision="ics" />
   <project path="device/samsung/galaxysmtd" name="AOKPCB/device_samsung_galaxysmtd" remote="gh" revision="ics" />
+  <project path="device/samsung/hercules" name="AOKP/android_device_samsung_hercules" remote="gh" revision="ics" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="gh" revision="ics" />
   <project path="device/samsung/mesmerizemtd" name="AOKP/android_device_samsung_mesmerizemtd" remote="gh" revision="ics" />
+  <project path="device/samsung/msm8660-common" name="AOKP/android_device_samsung_msm8660-common" remote="gh" revision="ics" />
   <project path="device/samsung/n7000" name="AOKPCB/android_device_samsung_n7000" remote="gh" revision="ics" />
   <project path="device/samsung/p4" name="AOKP/device_samsung_p4" remote="gh" revision="ics" />
   <project path="device/samsung/p4-common" name="AOKP/device_samsung_p4-common" remote="gh" revision="ics" />
@@ -80,6 +82,7 @@
   <project path="device/samsung/p5-common" name="AOKP/android_device_samsung_p5-common" remote="gh" revision="ics" />
   <project path="device/samsung/p5wifi" name="AOKP/android_device_samsung_p5wifi" remote="gh" revision="ics" />
   <project path="device/samsung/showcasemtd" name="AOKP/android_device_samsung_showcasemtd" remote="gh" revision="ics" />
+  <project path="device/samsung/skyrocket" name="AOKP/android_device_samsung_skyrocket" remote="gh" revision="ics" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="gh" revision="ics" />
   <project path="device/samsung/toroplus" name="AOKP/android_device_samsung_toroplus" remote="gh" revision="ics" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="gh" revision="ics" />
@@ -150,7 +153,7 @@
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses"  remote="gh" revision="ics" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/libpcap" name="platform/external/libpcap" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/libpcap" name="AOKP/external_libpcap" remote="gh" revision="ics" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/libpng" name="AOKP/external_libpng" remote="gh" revision="ics" />
   <project path="external/libvpx" name="platform/external/libvpx" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -289,7 +292,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" revision="ics" remote="gh" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="gh" revision="ics"/>
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/wallpapers/AOKPCBWP" name="AOKPCB/AOKPCB_Wallpapers" remote="sgs" revision="master"/>
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -300,6 +303,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="vendor/tmobile/themes/Achromatic" name="AOKP/android_vendor_tmobile_themes_Achromatic" remote="gh" revision="ics" />
   <project path="prebuilt" name="AOKP/prebuilt" remote="gh" revision="ics" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="gh" revision="ics"/>
