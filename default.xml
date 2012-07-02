@@ -13,7 +13,7 @@
            fetch="https://github.com/CyanogenMod/"
            revision="ics" />
 
-  <remote name="sgs"
+  <remote name="ics"
            fetch="https://github.com/"
            revision="ics" /> 
            
@@ -22,7 +22,7 @@
            revision="gingerbread" />          
 
   <default remote="aosp"
-           sync-j="4" />
+           sync-j="32" />
 
   <project path="build" name="AOKP/android_build" revision="ics" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -255,22 +255,21 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="gh" revision="ics" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="gh" revision="ics" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="sgs" revision="ics" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="ics" revision="ics" />
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="gh" revision="ics"/>
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="gb" revision="gingerbread" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="sgs" revision="master"/>
+  <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="ics" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="gh" revision="ics" />
-  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="sgs" revision="ics" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="ics" revision="ics" />
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="gh" revision="ics"/>
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="gh" revision="ics" />
-  <project path="packages/apps/AOKPtips" name="AOKP/packages_apps_AOKPtips" remote="gh" revision="ics"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="gh" revision="ics" />
@@ -294,7 +293,7 @@
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" revision="ics" remote="gh" />
   <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="gh" revision="ics"/>
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/wallpapers/AOKPCBWP" name="AOKPCB/AOKPCB_Wallpapers" remote="sgs" revision="master"/>
+  <project path="packages/wallpapers/AOKPCBWP" name="AOKPCB/AOKPCB_Wallpapers" remote="ics" revision="master"/>
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -314,9 +313,9 @@
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="ics" />
 
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="gh" revision="ics" />
-  <project path="vendor/aokp" name="AOKPCB/vendor_aokp" remote="sgs" revision="ics" />
-  <project path="vendor/aokpcb" name="AOKPCB/vendor_aokpcb" remote="sgs" revision="master" />
-  <project path="vendor/aokpcb/bot" name="AOKPCB/local_buildbot" remote="sgs" revision="ics" />
+  <project path="vendor/aokp" name="AOKPCB/vendor_aokp" remote="ics" revision="ics" />
+  <project path="vendor/aokpcb" name="AOKPCB/vendor_aokpcb" remote="ics" revision="master" />
+  <project path="vendor/aokpcb/bot" name="AOKPCB/local_buildbot" remote="ics" revision="ics" />
   <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="ics" />
@@ -340,6 +339,6 @@
   <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="refs/heads/ics" remote="gh" />
   <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="refs/heads/ics" remote="gh" />
 
-  <project path="platform_manifest" name="AOKPCB/platform_manifest" remote="sgs" revision="ics" />
+  <project path="platform_manifest" name="AOKPCB/platform_manifest" remote="ics" revision="ics" />
   
 </manifest>
