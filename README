@@ -3,6 +3,7 @@ Quick guide to building AOKPCB
 $ repo init -u https://github.com/AOKPCB/platform_manifest.git -b ics
 $ repo sync
 $ cd vendor/aokp && ./get-prebuilts && cd ../..
+$ . platform_manifest/manual_add_kernel_manifest.sh
 $ . build/envsetup.sh
 $ lunch
 $ make bacon
