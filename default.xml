@@ -69,6 +69,7 @@
   <project path="device/samsung/espressowifi" name="AOKP/android_device_samsung_espressowifi" remote="gh" revision="ics" />
   <project path="device/samsung/fascinatemtd" name="AOKP/device_samsung_fascinatemtd" remote="gh" revision="ics" />
   <project path="device/samsung/galaxysmtd" name="AOKPCB/device_samsung_galaxysmtd" remote="gh" revision="ics" />
+  <project path="device/samsung/galaxys4gmtd" name="fbis251/android_device_samsung_galaxys4gmtd" remote="gh" revision="ics"/>
   <project path="device/samsung/hercules" name="AOKP/device_samsung_hercules" remote="gh" revision="ics" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="gh" revision="ics" />
   <project path="device/samsung/mesmerizemtd" name="AOKP/android_device_samsung_mesmerizemtd" remote="gh" revision="ics" />
